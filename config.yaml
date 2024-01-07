@@ -22,61 +22,16 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
-
 params:
-  title: 'Hugo Profile'
+  title: 'Lucas Anselmo Portfolio'
   description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
   favicon: '/fav.png'
-
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
   useBootstrapCDN: false
-
-  # If you want to load dynamically responsive images from Cloudinary
-  # This requires your images to be uploaded + hosted on Cloudinary
-  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
-  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-
-  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
-
-  # Whether the fade animations on the home page will be enabled
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: 'light'
 
   font:
     fontSize: 1rem # default: 1rem
@@ -106,7 +61,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: 'Hugo Profile' # Brand name for the brand | default is the title variable
+    brandName: 'Lucas Anselmo' # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -124,29 +79,27 @@ params:
   hero:
     enable: true
     intro: 'Hi, my name is'
-    title: 'Isabella.'
-    subtitle: 'I build things for the web'
-    content: 'A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly.'
-    image: /images/hero.svg
+    title: 'Lucas Anselmo.'
+    subtitle: 'I build web applications.'
+    content: 'A passionate web application developer. I tend to make use of modern web technologies to create websites that look great, look great, respect web accessibility rules and function correctly.'
+    image: /images/profile-picture.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: 'Resume'
-      url: '#'
+      url: /file/CV_Lucas_Anselmo.pdf
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/lucas-anselmo-moraes-da-silva-543636161/
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/LucasAnselmoSilva12345/
         - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: 'https://example.com'
-
+          url: https://twitter.com/LucasAnselmo202
   # About
   about:
     enable: true
