@@ -81,7 +81,7 @@ params:
     intro: 'Hi, my name is'
     title: 'Lucas Anselmo.'
     subtitle: 'I build web applications.'
-    content: 'A passionate web application developer. I tend to make use of modern web technologies to create websites that look great, look great, respect web accessibility rules and function correctly.'
+    content: 'A passionate front-end web software developer. I tend to make use of modern web technologies to create websites that look great, look great, respect web accessibility rules and function correctly.'
     image: /images/profile-picture.png
     bottomImage:
       enable: true
@@ -104,21 +104,26 @@ params:
   about:
     enable: true
     title: 'About Me'
-    image: '/images/me.png'
+    image: '/images/min-profile-picture.png'
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I would like to introduce myself as a Junior Front-end software development enthusiast with a passion for creating innovative digital experiences. I have a degree in Computer Science and bring with me a professional trajectory marked by valuable experiences and a solid commitment to quality and innovation.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I started my professional journey in a project called “Training and Production of Teaching Material for Programming Competition Marathons”. This opportunity allowed me to build and apply materials that prepared teams for national and international programming competitions, highlighting my commitment to quality and education in the area.
+
+      Later, I entered the world of website, software and application development, focusing on Front-end. As a web software development intern, I worked with software such as Open Journal System, Open Preprint System and Open Monograph Press. During this period, I focused on creating visual identities and themes for academic portals, in addition to developing personalized functionalities to meet the specific needs of each client.
+
+      I highlight my competence in JavaScript and TypeScript languages, combined with frameworks such as React and Next.js. I developed and implemented widely used projects of my own, focusing on the extensive implementation of unit and integration tests, following agile methodologies and testing methodologies. Furthermore, all of my projects follow the digital accessibility guidelines defined by W3C, ensuring inclusive and accessible experiences for all users.
+
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - 'HTML'
-        - 'CSS'
-        - 'JavaScript'
         - 'React'
-        - 'Node'
-        - 'Express'
+        - 'Next.js'
+        - 'TypeScript'
+        - 'JavaScript'
+        - 'Jest'
+        - 'React Testing Library'
 
   # Experience
   experience:
