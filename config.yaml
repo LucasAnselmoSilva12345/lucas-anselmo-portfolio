@@ -174,73 +174,194 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: 'https://github.com/gurusabarish/hugo-profile'
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Conict Scientific Conference.
+        content: Presentation on the topic "Tool for evaluating web software and applications for accessibility features for visually impaired people" - the main theme of my final course project.
+        url: https://ocs.ifsp.edu.br/conict/xivconict/paper/view/9702
+        image: /images/certificado_apresentacao_autores.jpg
+      - title: FliSol Workshop
+        content: Exposition about the "OJS software - Academic Journal Management and Publishing Software".
+        url: https://www.youtube.com/live/Hu8ViS9q8QU?si=za9EwhgEemsBBBGX&t=5400
+        image: /images/flisol.jpeg
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: TI site project
+        content: This project is a website that presents about the 10 most used programming languages ​​in the world until December 2017.
+        image: /images/projects/ti-site.jpg
         badges:
-          - 'Hugo'
-          - 'Bootstrap'
-          - 'Javascript'
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - 'Django'
-          - 'Bootstrap'
+          - 'Html'
+          - 'Css'
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/LucasAnselmoSilva12345/Projeto-Site-TI
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: EducaVida
+        content: EducaVida is a program for public schools that contains a project called 'Ensino+' (Teaching Plus). The intentions are to help the students of these schools with their daily school tasks, as well as prepare them for future situations such as exams within the school, tests for technical schools, and university entrance exams. Additionally, it provides professional guidance regarding career planning after the end of the school year.
+        image: /images/projects/educa-vida.jpg
+        badges:
+          - 'Html'
+          - 'Css'
+          - 'JavaScript'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/educa_vida
+
+      - title: e-Cars
+        content: The e-Cars website is a platform for buying and selling motor vehicles, in addition to providing services for customers who make purchases on the platform. Our intention is to ensure that people interested in selling or buying a vehicle can have the guarantee that they are making a reliable, scam-free, and secure purchase, complying with all security measures imposed by the laws.
+        image: /images/projects/e-cars.png
+        featured:
+          name: Demo
+          link: https://e-cars.pages.dev/
+        badges:
+          - 'Html'
+          - 'Css'
+          - 'JavaScript'
+          - 'Firebase'
+          - 'Cloudflare Pages'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/e-Cars
+
+      - title: Learning JavaScript
+        content: This is a JS code repository made for those who are starting in the language and would like to learn something specific in the language. And of course it is also a repository for those who already program in JS and want to review some concept of he language.
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
         badges:
           - 'Hugo'
           - 'Bootstrap'
           - 'Javascript'
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/LucasAnselmoSilva12345/aprenda_JavaScript
 
+      - title: CoinGecko
+        content: This application aims to address the world of cryptocurrencies, showing how this virtual and digital world works. In addition to the teachings, the application allows the user to see the list of the most used virtual currencies.
+        image: /images/projects/coinmarket.png
+        badges:
+          - 'Svelte'
+          - 'JavaScript'
+          - 'Bootstrap'
+          - 'API - Coinc Goink'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/CoinGecko
+
+      - title: Blood Donation
+        content: O Blood Donation é uma plataforma de doadores de sangue, onde pessoas se cadastram, mostrando dispostas a salvarem vidas, e pessoas que necessitam de doações sanguíneas, podem achar seus salvadores aqui nessa plataforma.
+        image: /images/projects/blood-donation.jpg
+        badges:
+          - 'React'
+          - 'TypeScript'
+          - 'JavaScript'
+          - 'Node.js'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/blood-donation
+
+      - title: Social Pets
+        content: One website where pet owners can create a profile and share photos of their pets with other users. It's a great way to connect with other animal lovers and see adorable pictures of all kinds of pets.
+        image: /images/projects/social-pets.png
+        featured:
+          name: Demo
+          link: https://social-pets.pages.dev/
+        badges:
+          - 'React'
+          - 'JavaScript'
+          - 'Tailwind CSS'
+          - 'Vite'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/Social-Pets
+
+      - title: John Text List
+        content: This is a to-do list web application, responsible for helping you organize your routine of tasks that need to be done during the day.
+        image: /images/projects/john-text-list.png
+        featured:
+          name: Demo
+          link: https://john-task-list.pages.dev/
+        badges:
+          - 'React'
+          - 'TypeScript'
+          - 'JavaScript'
+          - 'Tailwind CSS'
+          - 'Shadcn/ui'
+          - 'Jest'
+          - 'React Testing Library'
+          - 'Vite'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/John-Task-List
+
+      - title: Food-Recipe
+        content: Your go-to destination for an extensive collection of diverse recipes. Explore a world of culinary delights, from gourmet dishes to healthy options. Find inspiration for every meal and occasion. Discover, cook, and savor delicious creations today!
+        image: /images/projects/food-recipe.png
+        featured:
+          name: Demo
+          link: https://food-recipe.pages.dev/
+        badges:
+          - 'React'
+          - 'TypeScript'
+          - 'JavaScript'
+          - 'Tailwind CSS'
+          - 'Vite'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/food-recipe
+
+      - title: HeroHub
+        content: HeroHub, your definitive portal to explore the vast and diverse universe of superheroes! Imagine a world where all the legends, myths, and powers come together on an accessible platform, a central point where the history and feats of each hero come to life.
+        image: /images/projects/hero-hub.png
+        badges:
+          - 'React'
+          - 'TypeScript'
+          - 'JavaScript'
+          - 'Tailwind CSS'
+          - 'Jest'
+          - 'React Testing Library'
+          - 'Vite'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/hero-hub
+
+      - title: Where In the World
+        content: The goal of this project is to showcase all countries worldwide through individual cards displaying their respective flag, name, capital, total population, and continent.
+        image: /images/projects/where-world.png
+        featured:
+          name: Demo
+          link: https://restcountriesintheworld.pages.dev/
+        badges:
+          - 'React'
+          - 'TypeScript'
+          - 'JavaScript'
+          - 'Tailwind CSS'
+          - 'Shadcn/ui'
+          - 'Jest'
+          - 'React Testing Library'
+          - 'Vite'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/restCountriesInTheWorld
+
+      - title: Jest-React-Testing-Library-Hook-Form-Zod
+        content: This project is a study about on validating form fields using modern technologies such as React, TypeScript, Zod, Hook-Form, Jest e React-Testing-Library.
+        image: /images/projects/jrhz.png
+        featured:
+          name: Demo
+          link: https://jest-rtl-hookform-zod.pages.dev/
+        badges:
+          - 'React'
+          - 'TypeScript'
+          - 'JavaScript'
+          - 'Tailwind CSS'
+          - 'Shadcn/ui'
+          - 'Jest'
+          - 'React Testing Library'
+          - 'Vite'
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LucasAnselmoSilva12345/jest-rtl-hookForm-zod
   #Contact
   contact:
     enable: true
