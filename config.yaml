@@ -1,6 +1,6 @@
 baseURL: 'http://localhost:1313/'
 languageCode: 'en-us'
-title: 'Hugo Profile'
+title: 'Lucas Anselmo Portfolio'
 theme: hugo-profile
 
 outputs:
@@ -24,14 +24,14 @@ markup:
 
 params:
   title: 'Lucas Anselmo Portfolio'
-  description: Text about my cool site
-  favicon: '/fav.png'
+  description: The life and projects about the Lucas Anselmo.
+  favicon: '/images/fav.png'
   useBootstrapCDN: false
   mathjax: false
   animate: true
 
   theme:
-    defaultTheme: 'light'
+    defaultTheme: 'dark'
 
   font:
     fontSize: 1rem # default: 1rem
@@ -62,7 +62,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: 'Lucas Anselmo' # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable: true
