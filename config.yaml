@@ -82,7 +82,7 @@ params:
     title: 'Lucas Anselmo.'
     subtitle: 'I build web applications.'
     content: 'A passionate front-end web software developer. I tend to make use of modern web technologies to create websites that look great, look great, respect web accessibility rules and function correctly.'
-    image: /images/profile-picture.png
+    image: /images/profile-picture.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -104,7 +104,7 @@ params:
   about:
     enable: true
     title: 'About Me'
-    image: '/images/min-profile-picture.png'
+    image: '/images/seconda-profile-picture.jpeg'
     content: |-
       I would like to introduce myself as a Junior Front-end software development enthusiast with a passion for creating innovative digital experiences. I have a degree in Computer Science and bring with me a professional trajectory marked by valuable experiences and a solid commitment to quality and innovation.
 
@@ -130,6 +130,21 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: 'Junior Programmer Analyst'
+        company: 'Sofá Na Caixa'
+        companyUrl: 'https://sofanacaixa.com.br/'
+        date: 'Jan 2024 - Present'
+        content:
+          Throughout my professional journey, I contributed to the development and enhancement of an e-commerce website specializing in the sale of products for residential areas.
+          During this period, I focused on creating new pages to enhance the user experience, maintaining existing pages to ensure they're optimized functionality, and integrating new features to boost the effectiveness of the site.
+          I actively participated in the process of specializing and optimizing the site's SEO, acquiring essential
+          skills to optimize the site, understanding its operation, and using appropriate tools to improve its
+          ranking on search engines, alongside training for specialization in the subject.
+          Additionally, I joined the team responsible for ERP automation initiatives, aiming to enhance
+          information exchange between various sectors of the company. We developed automated solutions
+          designed to streamline internal processes, significantly contributing to the operational efficiency of
+          the organization.
+
       - job: 'Intern in Web Software Development'
         company: 'Lepidus Tecnologia'
         companyUrl: 'https://lepidus.com.br/'
